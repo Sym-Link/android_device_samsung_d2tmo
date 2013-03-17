@@ -22,3 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-gsm
 
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
+
+# KTweaker
+PRODUCT_COPY_FILES +=  \
+device/samsung/d2tmo/proprietary/ktweaker/KTweaker.apk:system/app/KTweaker.apk
