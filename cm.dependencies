@@ -12,7 +12,7 @@
     "target_path": "device/samsung/d2-common"
   },
   {
-    "repository": "SGH-Krait",
+    "repository": "KT747-JB",
     "target_path": "kernel/samsung/d2"
   }
 ]

@@ -30,5 +30,5 @@
 TARGET_OTA_ASSERT_DEVICE := d2tmo
 
 # Kernel
-TARGET_KERNEL_CONFIG        := faux_d2_att_defconfig
+TARGET_KERNEL_CONFIG        := KT747_d2att_defconfig
 
