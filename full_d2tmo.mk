@@ -27,6 +27,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d2tmo device
 $(call inherit-product, device/samsung/d2tmo/device.mk)
 
+# Copy KTweaker
+PRODUCT_COPY_FILES += \
+ device/samsung/d2tmo/proprietary/ktweaker/KTweaker.apk:system/app/KTweaker.apk
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_d2tmo
 PRODUCT_DEVICE := d2tmo
